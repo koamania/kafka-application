@@ -32,6 +32,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     implementation("org.slf4j:slf4j-simple:1.7.30")
 
+    // coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3")
+
 }
 
 tasks.withType<KotlinCompile> {
